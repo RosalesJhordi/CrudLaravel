@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background: rgba(128, 128, 128, 0.236);
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.conte{
+    height: auto;
+}
+.info{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conte img{
+    height: 80vh;
+}
+.texto{
+    width: 90%;
+}
