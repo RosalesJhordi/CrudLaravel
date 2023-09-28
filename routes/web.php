@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClienteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Crud');
 });
+
+Route::get('/clientes',[ClienteController::class,'index'])->name('clientes');
+Route::post('/clientes',[ClientesContrller::class,'store']);
+//routes Registro
+// Route::get('/registro',[RegistroController::class,'index'])->name('registro');
+// Route::post('/registro',[RegistroController::class,'store']);

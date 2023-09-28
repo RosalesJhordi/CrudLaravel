@@ -12,7 +12,7 @@
         <h1 class="text-3xl font-bold">Vagitos.com</h1>
         <nav class="font-bold">
             <a class="mr-5" href="/">Home</a>
-            <a class="mr-5" href="">Clientes</a>
+            <a class="mr-5" href="{{route('clientes')}}">Clientes</a>
             <a class="mr-5" href="">Tienda</a>
         </nav>
     </header>
